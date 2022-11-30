@@ -1,0 +1,20 @@
+{
+  "name": "link_shortner",
+  "version": "1.0.0",
+  "description": "linkshortner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "rohan",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20",
+    "shortid": "^2.2.16"
+  }
+}

@@ -9,7 +9,7 @@ app.set('views','view')
 app.use(express.urlencoded({ extended: false }))
 
 
-const db=""
+const db="mongodb+srv://1234:feeditnot@cluster0.ihvrjfh.mongodb.net/urlshortner?retryWrites=true&w=majority"
 mongoose.connect(db,{Usenewurlparser: true, useUnifiedTopology:true})
 
 app.get('/', async (req, res) => {

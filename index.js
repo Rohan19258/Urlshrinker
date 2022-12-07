@@ -5,7 +5,8 @@ const ShortUrl=require('./models/shorturl')
 const app=express()
 
 app.set('view engine','ejs')
-// app.set('views','view')
+const viewpath=path.join(_dirname,"./view")
+ app.set('views',viewpath)
 app.use(express.urlencoded({ extended: false }))
 
 
